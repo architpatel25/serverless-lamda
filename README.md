@@ -44,3 +44,9 @@ Deploy to production (to your AWS account)
 `npm run deploy`
 
 Upon deploying, AWS will wire up all of the resources in a CloudFormation stack, expose API Gateway endpoints and setup CloudWatch for monitoring.
+
+`GET Method: curl --location --request GET 'https://hcknpg9md8.execute-api.eu-north-1.amazonaws.com/' \`
+
+`POST Method: curl --location --request POST 'https://hcknpg9md8.execute-api.eu-north-1.amazonaws.com/create' \
+--header 'Content-Type: application/json' \
+--data-raw '{"test data"}'`
