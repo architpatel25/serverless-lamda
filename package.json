@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Mirza Leka",
-  "license": "ISC",
+  "license": "ISC", 
   "devDependencies": {
     "@types/aws-lambda": "^8.10.109",
     "@types/http-errors": "^2.0.1",
