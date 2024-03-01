@@ -5,7 +5,7 @@ module.exports.hello = async (event) => {
     return {
       statusCode: 201,
       body: JSON.stringify({
-        message: 'Post Method Called Successfully...!',
+        message: 'Post Method Called Successfully.',
       }),
     };
   }
@@ -13,7 +13,7 @@ module.exports.hello = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Get Method Called Successfully...!',
+      message: 'Get Method Called Successfully.',
     }),
   };
 };
