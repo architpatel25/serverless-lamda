@@ -1,4 +1,4 @@
-# Lambda Function with Serverless Framework Using AWS
+# Lambda Fn. with Serverless Framework Using AWS
 
 Please go through below link for nodejs and typescript
 
